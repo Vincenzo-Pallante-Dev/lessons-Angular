@@ -1,0 +1,8 @@
+<!-- Passare dati da Parent(app) a Child(prova2) -->
+<h1>Passare dati da Parent(app) a Child(prova2) - property_binding</h1>
+
+<div *ngFor="let persona of data">
+  <p [ngStyle]="{ color: persona.color }">
+    {{ persona.Nome }} {{ persona.Cognome }}
+  </p>
+</div>
